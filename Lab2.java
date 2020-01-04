@@ -1,6 +1,8 @@
 public class Lab2
 { 
   public static void turnRight(double delay) {
+    //pre-cond. facing an arbitrary direction
+    //post-cond. turned 90° clockwise from the previous direction
       for (int i=1; i<=3; i++) {
           Robot.setDelay(0); //unnecessary, but delayless turning
           Robot.turnLeft(); 
